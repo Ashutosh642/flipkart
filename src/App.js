@@ -20,7 +20,7 @@ import Frontliners from './Frontliners';
 function App() {
   return (
     <div className="mt-2">
-      {/* <Router>
+       <Router>
         <NavbarSection></NavbarSection>
         <Route path="/" exact component={Home} />
         <Route path="/flipkart" component={Flipkart} />
@@ -28,8 +28,8 @@ function App() {
         <Route path="/filteritems" component={FilterItems} />
         <Route path="/placeorder" component={PlaceOrder} />
         <Footer></Footer>
-      </Router>  */}
-      <Frontliners></Frontliners>
+      </Router>
+      
        
        
      
